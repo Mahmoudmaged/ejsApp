@@ -17,7 +17,7 @@ const handelValidation = (url) => {
 
 
         } catch (error) {
-            req.flash("ServerError" , error)
+            req.flash("ServerError" , "error validation")
             res.redirect(url)
 
         }
