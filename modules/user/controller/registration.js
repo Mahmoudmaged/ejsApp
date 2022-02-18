@@ -77,7 +77,7 @@ const handelLogin =  async(req,res)=>{
     }
 }
 const displayHome = async(req,res)=>{
-    res.render("Home" , {user:req.session.user})
+    res.render("home" , {user:req.session.user})
 }
 module.exports = {
     displaySignUp,
